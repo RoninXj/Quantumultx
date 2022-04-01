@@ -67,7 +67,7 @@
       "config": "15 0-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/jztt.js, tag=David-九章头条, img-url=https://raw.githubusercontent.com/RoninXj/Quantumultx/master/David/Icon/jztt.png, enabled=false",
       "addons": " https://raw.githubusercontent.com/RoninXj/Quantumultx/master/David/jztt.conf"
     },{
-      "config": "0 0 8,16 * * ? http://script.frp.aiuyo.com:8680/jy20220331cdvde/jy.js, tag=David-剪映, img-url=https://raw.githubusercontent.com/RoninXj/Quantumultx/master/David/Icon/jianying.png, enabled=false",
+      "config": "0 7/12 * * * http://script.frp.aiuyo.com:8680/jy20220331cdvde/jy.js, tag=David-剪映, img-url=https://raw.githubusercontent.com/RoninXj/Quantumultx/master/David/Icon/jianying.png, enabled=false",
       "addons": " https://raw.githubusercontent.com/RoninXj/Quantumultx/master/David/jy.conf"
     },{
       "config": "15 0-23/1 * * * kkd.js, tag=David-快看点, img-url=https://raw.githubusercontent.com/RoninXj/Quantumultx/master/David/Icon/kkd.png, enabled=false",
