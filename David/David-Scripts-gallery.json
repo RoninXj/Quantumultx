@@ -1,131 +1,131 @@
 {
   "name": "David_Scripts!",
-  "description": "默认关闭运行;update:2022-03-29 16:46;sE7En_Xp整理",
+  "description": "默认关闭运行;update:2022-04-01 13:16;xj133277整理",
   "task": [
     {
-      "config": "0 0 1 1 * https://raw.githubusercontent.com/bluesmallpig/scripts/main/sync_ql.js, tag=David-同步青龙, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/sync_ql.png, enabled=false"
+      "config": "0 0 1 1 * https://raw.githubusercontent.com/bluesmallpig/scripts/main/sync_ql.js, tag=David-同步青龙, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/sync_ql.png, enabled=false"
     },{
-      "config": "0 0 1 1 * https://raw.githubusercontent.com/bluesmallpig/scripts/main/sync_v2p.js, tag=David-同步V2P, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/sync_v2p.png, enabled=false"
+      "config": "0 0 1 1 * https://raw.githubusercontent.com/bluesmallpig/scripts/main/sync_v2p.js, tag=David-同步V2P, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/sync_v2p.png, enabled=false"
     },{
-      "config": "15 8,16 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/awy.js, tag=David-爱微影, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/awy.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/awy.conf"
+      "config": "15 8,16 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/awy.js, tag=David-爱微影, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/awy.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/awy.conf"
     },{
-      "config": "13 7-18/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/cydxsgame.js, tag=David-成语大学士, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/cydxs.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/cydxs.conf"
+      "config": "13 7-18/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/cydxsgame.js, tag=David-成语大学士, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/cydxs.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/cydxs.conf"
     },{
-      "config": "10 8,12 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/daw.js, tag=David-都爱玩, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/daw.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/daw.conf"
+      "config": "10 8,12 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/daw.js, tag=David-都爱玩, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/daw.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/daw.conf"
     },{
-      "config": "13 7-18/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/djxs.js, tag=David-得间小说, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/djxs.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/djxs.conf"
+      "config": "13 7-18/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/djxs.js, tag=David-得间小说, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/djxs.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/djxs.conf"
     },{
-      "config": "0 20 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/dsjtx.js, tag=David-电视家提现(TF), img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/dsjtx.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/dsjtx.conf"
+      "config": "0 20 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/dsjtx.js, tag=David-电视家提现(TF), img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/dsjtx.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/dsjtx.conf"
     },{
-      "config": "*/30 0-23 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/dszb.js, tag=David-电视直播TV, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/dszb.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/dszb.conf"
+      "config": "*/30 0-23 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/dszb.js, tag=David-电视直播TV, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/dszb.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/dszb.conf"
     },{
-      "config": "*/15 6-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/dtwzgame.js, tag=David-答题王者, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/dtwz.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/dtwz.conf"
+      "config": "*/15 6-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/dtwzgame.js, tag=David-答题王者, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/dtwz.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/dtwz.conf"
     },{
-      "config": "*/30 0-23/1 * * * dyhsb.js, tag=David-抖音火山版, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/dyhsb.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/dyhsb.conf"
+      "config": "*/30 0-23/1 * * * dyhsb.js, tag=David-抖音火山版, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/dyhsb.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/dyhsb.conf"
     },{
-      "config": "*/20 8-22/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/dyjsb.js, tag=David-抖音极速版, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/dyjsb.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/dyjsb.conf"
+      "config": "*/20 8-22/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/dyjsb.js, tag=David-抖音极速版, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/dyjsb.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/dyjsb.conf"
     },{
-      "config": "5 6-22/2 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/dzl.js, tag=David-多走路, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/dzl.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/dzl.conf"
+      "config": "5 6-22/2 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/dzl.js, tag=David-多走路, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/dzl.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/dzl.conf"
     },{
-      "config": "*/15 7-22/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/fdxs.js, tag=David-疯毒小说, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/fdxs.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/fdxs.conf"
+      "config": "*/15 7-22/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/fdxs.js, tag=David-疯毒小说, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/fdxs.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/fdxs.conf"
     },{
-      "config": "*/8 6-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/fdxs_times.js, tag=David-疯毒小说刷时长, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/fdxs.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/fdxs.conf"
+      "config": "*/8 6-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/fdxs_times.js, tag=David-疯毒小说刷时长, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/fdxs.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/fdxs.conf"
     },{
-      "config": "15 8-20/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/fqctapp.js, tag=David-番茄畅听, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/fqct.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/fqct.conf"
+      "config": "15 8-20/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/fqctapp.js, tag=David-番茄畅听, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/fqct.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/fqct.conf"
     },{
-      "config": "*/30 8-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/fqxs.js, tag=David-番茄小说, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/fqxs.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/fqxs.conf"
+      "config": "*/30 8-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/fqxs.js, tag=David-番茄小说, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/fqxs.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/fqxs.conf"
     },{
-      "config": "20 7,20 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/gylm.js, tag=David-高佣联盟, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/gylm.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/gylm.conf"
+      "config": "20 7,20 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/gylm.js, tag=David-高佣联盟, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/gylm.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/gylm.conf"
     },{
-      "config": "*/20 6-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/hlhb.js, tag=David-欢乐红包, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/hlhb.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/hlhb.conf"
+      "config": "*/20 6-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/hlhb.js, tag=David-欢乐红包, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/hlhb.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/hlhb.conf"
     },{
-      "config": "25 8-20/2 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/jktt.js, tag=David-健康头条, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/jktt.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/jktt.conf"
+      "config": "25 8-20/2 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/jktt.js, tag=David-健康头条, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/jktt.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/jktt.conf"
     },{
-      "config": "*/10 5-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/jrtt.js, tag=David-今日头条, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/jrtt.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/jrtt.conf"
+      "config": "*/10 5-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/jrtt.js, tag=David-今日头条, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/jrtt.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/jrtt.conf"
     },{
-      "config": "*/10 5-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/jrtt_sync.js, tag=David-今日头条(并发), img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/jrtt.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/jrtt.conf"
+      "config": "*/10 5-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/jrtt_sync.js, tag=David-今日头条(并发), img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/jrtt.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/jrtt.conf"
     },{
-      "config": "15 0-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/jztt.js, tag=David-九章头条, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/jztt.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/jztt.conf"
+      "config": "15 0-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/jztt.js, tag=David-九章头条, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/jztt.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/jztt.conf"
     },{
-      "config": "15 0-23/1 * * * kkd.js, tag=David-快看点, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/kkd.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/kkd.conf"
+      "config": "15 0-23/1 * * * kkd.js, tag=David-快看点, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/kkd.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/kkd.conf"
     },{
-      "config": "13 7-18/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/ks.js, tag=David-快手, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/ks.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/ks.conf"
+      "config": "13 7-18/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/ks.js, tag=David-快手, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/ks.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/ks.conf"
     },{
-      "config": "*/30 6-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/ls.js, tag=David-来闪, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/ls.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/ls.conf"
+      "config": "*/30 6-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/ls.js, tag=David-来闪, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/ls.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/ls.conf"
     },{
-      "config": "0 0 1 1 * https://raw.githubusercontent.com/bluesmallpig/scripts/main/mdmj.js, tag=David-美的美居, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/mdmj.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/mdmj.conf"
+      "config": "0 0 1 1 * https://raw.githubusercontent.com/bluesmallpig/scripts/main/mdmj.js, tag=David-美的美居, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/mdmj.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/mdmj.conf"
     },{
-      "config": "*/30 0-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/qhbdspapp.js, tag=David-趣红包短视频, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/qhb.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/qhb.conf"
+      "config": "*/30 0-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/qhbdspapp.js, tag=David-趣红包短视频, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/qhb.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/qhb.conf"
     },{
-      "config": "1 0,8-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/qqyd.js, tag=David-QQ阅读, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/qqyd.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/qqyd.conf"
+      "config": "1 0,8-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/qqyd.js, tag=David-QQ阅读, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/qqyd.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/qqyd.conf"
     },{
-      "config": "*/20 0-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/qtt.js, tag=David-趣头条, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/qtt.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/qtt.conf"
+      "config": "*/20 0-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/qtt.js, tag=David-趣头条, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/qtt.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/qtt.conf"
     },{
-      "config": "5 6-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/sjb.js, tag=David-睡觉宝, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/sjb.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/sjb.conf"
+      "config": "5 6-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/sjb.js, tag=David-睡觉宝, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/sjb.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/sjb.conf"
     },{
-      "config": "13 7,18 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/sl.js, tag=David-闪辆, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/sl.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/sl.conf"
+      "config": "13 7,18 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/sl.js, tag=David-闪辆, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/sl.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/sl.conf"
     },{
-      "config": "20 6-22/2 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/sqxs.js, tag=David-舒淇日常, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/sqxs.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/sqxs.conf"
+      "config": "20 6-22/2 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/sqxs.js, tag=David-舒淇日常, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/sqxs.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/sqxs.conf"
     },{
-      "config": "*/6 0-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/everyday.js, tag=David-舒淇每日, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/sqxsday.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/sqxsday.conf"
+      "config": "*/6 0-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/everyday.js, tag=David-舒淇每日, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/sqxsday.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/sqxsday.conf"
     },{
-      "config": "15 8,16 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/everyday.js, tag=David-图虫, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/tc.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/tc.conf"
+      "config": "15 8,16 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/everyday.js, tag=David-图虫, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/tc.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/tc.conf"
     },{
-      "config": "*/5 7-22/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/txs.js, tag=David-淘小说, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/txs.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/txs.conf"
+      "config": "*/5 7-22/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/txs.js, tag=David-淘小说, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/txs.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/txs.conf"
     },{
-      "config": "10 6-23/2 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/wlkd.js, tag=David-文旅看点, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/wlkd.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/wlkd.conf"
+      "config": "10 6-23/2 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/wlkd.js, tag=David-文旅看点, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/wlkd.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/wlkd.conf"
     },{
-      "config": "45 16 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/xmyd.js, tag=David-小米运动, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/xmyd.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/xmyd.conf"
+      "config": "45 16 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/xmyd.js, tag=David-小米运动, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/xmyd.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/xmyd.conf"
     },{
-      "config": "15 6-23/2 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/ydyy.js, tag=David-移动电影院(已失效), img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/ydyy.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/ydyy.conf"
+      "config": "15 6-23/2 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/ydyy.js, tag=David-移动电影院(已失效), img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/ydyy.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/ydyy.conf"
     },{
-      "config": "5 8-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/zqkd.js, tag=David-中青看点, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/zqkd.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/zqkd.conf"
+      "config": "5 8-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/zqkd.js, tag=David-中青看点, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/zqkd.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/zqkd.conf"
     },{
-      "config": "5 8-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/zqkd.js, tag=David-中青看点(并发), img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/zqkd.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/zqkd.conf"
+      "config": "5 8-23/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/zqkd.js, tag=David-中青看点(并发), img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/zqkd.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/zqkd.conf"
     },{
-      "config": "5 6-22/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/zssq.js, tag=David-追书神器, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/zssq.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/zssq.conf"
+      "config": "5 6-22/1 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/zssq.js, tag=David-追书神器, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/zssq.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/zssq.conf"
     },{
-      "config": "20 8,16 * * * http://script.frp.aiuyo.com:8680/qd.js, tag=David-签到合集, img-url=https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/Icon/qdheji.png, enabled=false",
-      "addons": " https://raw.githubusercontent.com/Se7eNcBoT/QuantumultX/master/David/qdheji.conf"
+      "config": "20 8,16 * * * http://script.frp.aiuyo.com:8680/qd.js, tag=David-签到合集, img-url=https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/Icon/qdheji.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/xj133277/Quantumultx/master/David/qdheji.conf"
     }
   ]
 }
