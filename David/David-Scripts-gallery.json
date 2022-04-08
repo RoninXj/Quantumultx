@@ -103,7 +103,7 @@
       "config": "*/6 0-23/1 * * * http://script.frp.aiuyo.com:8680/everyday.js, tag=David-书旗小说每日, img-url=https://raw.githubusercontent.com/RoninXj/Quantumultx/master/David/Icon/sqxsday.png, enabled=false",
       "addons": " https://raw.githubusercontent.com/RoninXj/Quantumultx/master/David/sqxsday.conf"
     },{
-      "config": "15 8,16 * * * http://script.frp.aiuyo.com:8680/everyday.js, tag=David-图虫, img-url=https://raw.githubusercontent.com/RoninXj/Quantumultx/master/David/Icon/tc.png, enabled=false",
+      "config": "15 8,16 * * * http://script.frp.aiuyo.com:8680/tc.js, tag=David-图虫, img-url=https://raw.githubusercontent.com/RoninXj/Quantumultx/master/David/Icon/tc.png, enabled=false",
       "addons": " https://raw.githubusercontent.com/RoninXj/Quantumultx/master/David/tc.conf"
     },{
       "config": "*/5 7-22/1 * * * http://script.frp.aiuyo.com:8680/txs.js, tag=David-淘小说, img-url=https://raw.githubusercontent.com/RoninXj/Quantumultx/master/David/Icon/txs.png, enabled=false",
