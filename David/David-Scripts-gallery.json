@@ -1,6 +1,6 @@
 {
   "name": "David_Scripts!",
-  "description": "默认关闭运行;update:2022-04-01 13:16;RoninXj整理",
+  "description": "默认关闭运行;update:2022-04-16 11:52;RoninXj整理",
   "task": [
     {
       "config": "0 0 1 1 * http://script.frp.aiuyo.com:8680/scripts/sync_ql.js, tag=David-同步青龙, img-url=https://raw.githubusercontent.com/RoninXj/Quantumultx/master/David/Icon/sync_ql.png, enabled=false"
