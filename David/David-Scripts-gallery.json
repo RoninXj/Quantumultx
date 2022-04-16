@@ -76,6 +76,9 @@
       "config": "13 7-18/1 * * * http://script.frp.aiuyo.com:8680/scripts/ks.js, tag=David-快手, img-url=https://raw.githubusercontent.com/RoninXj/Quantumultx/master/David/Icon/ks.png, enabled=false",
       "addons": " https://raw.githubusercontent.com/RoninXj/Quantumultx/master/David/ks.conf"
     },{
+      "config": "9 8-18 * * * http://script.frp.aiuyo.com:8680/scripts/ksjsb.js, tag=David-快手极速版, img-url=https://raw.githubusercontent.com/RoninXj/Quantumultx/master/David/Icon/ksjs.png, enabled=false",
+      "addons": " https://raw.githubusercontent.com/RoninXj/Quantumultx/master/David/ksjs.conf"
+    },{
       "config": "*/30 6-23/1 * * * http://script.frp.aiuyo.com:8680/scripts/ls.js, tag=David-来闪, img-url=https://raw.githubusercontent.com/RoninXj/Quantumultx/master/David/Icon/ls.png, enabled=false",
       "addons": " https://raw.githubusercontent.com/RoninXj/Quantumultx/master/David/ls.conf"
     },{
