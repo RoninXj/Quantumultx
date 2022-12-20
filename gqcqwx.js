@@ -1,6 +1,6 @@
 async function GetRewrite() {
  if ($request.url.indexOf("live/home/tab-bar-status.json") > -1) {
-  const ck = $request.headers['token']
+  const ck = $request.headers.token
   if (ckStr) {
    if (ckStr.indexOf(ck) == -1) { // 找不到返回 -1
     ckStr = ckStr + "@" or "\n" + ck;
