@@ -3,9 +3,9 @@ async function GetRewrite() {
   const ck = $request.headers.token
   if (ckStr) {
    if (ckStr.indexOf(ck) == -1) { // 找不到返回 -1
-    ckStr = ckStr + "@" or "\n" + ck;
+    ckStr = ckStr + "\n" + ck;
     $.setdata(ckStr, "gqcqwxcookie");
-    ckList = ckStr.split("@" or "\n");
+    ckList = ckStr.split("\n");
     $.msg($.name + ` 获取第${ckList.length}个 ck 成功: ${ck} ,不用请自行关闭重写!`);
    }
   } else {
