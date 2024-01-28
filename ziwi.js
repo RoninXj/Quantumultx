@@ -355,7 +355,7 @@ async function getCookie() {
             if (originalCookie) {
                 let cookieArray = originalCookie.split('@');
                 if (cookieArray.length > 0) {
-                    originalCookie = tokenValue;
+                    originalCookie = tokenValue + '@' + originalCookie;
                 }
             } else {
                 originalCookie = tokenValue;
