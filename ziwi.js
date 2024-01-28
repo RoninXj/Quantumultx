@@ -342,7 +342,7 @@ class UserInfo {
 
 
 
-// 记录成功获取的Cookie数量
+// 记录成功获取的不同Cookie数量
 let cookieCount = 0;
 
 // 获取Cookie
@@ -353,14 +353,20 @@ async function getCookie() {
             // 获取现有的Cookie
             let originalCookie = $.getdata(ckName);
             if (originalCookie) {
-                // 添加新的Cookie，并用@符号分隔
-                originalCookie += '@' + tokenValue;
+                // 检查是否存在重复的Cookie，如果不存在则添加新的Cookie，并用@符号分隔
+                if (!originalCookie.includes(tokenValue)) {
+                    originalCookie += '@' + tokenValue;
+                    cookieCount++; // 增加成功获取的不同Cookie数量
+                    $.msg($.name, "", "获取第 " + cookieCount + " 个签到Cookie成功🎉");
+                } else {
+                    $.msg($.name, "", "重复的签到Cookie已存在，未添加");
+                }
             } else {
                 originalCookie = tokenValue;
+                cookieCount++; // 增加成功获取的不同Cookie数量
+                $.msg($.name, "", "获取第 " + cookieCount + " 个签到Cookie成功🎉");
             }
             $.setdata(originalCookie, ckName);
-            cookieCount++; // 增加成功获取的Cookie数量
-            $.msg($.name, "", "获取第 " + cookieCount + " 个签到Cookie成功🎉");
         } else {
             $.msg($.name, "", "错误获取签到Cookie失败");
         }
