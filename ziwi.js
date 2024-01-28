@@ -350,23 +350,14 @@ async function getCookie() {
         const tokenValue = $request.headers['Authorization'] || $request.headers['authorization'];
         if (tokenValue) {
             let originalCookie = $.getdata(ckName) || '';
-            let cookieCount = 0;
-            // 如果已经有Cookie，则覆盖第一个Cookie值
-            if (originalCookie) {
-                let cookieArray = originalCookie.split('@');
-                if (cookieArray.length > 0) {
-                    originalCookie = tokenValue + '@' + originalCookie;
-                }
+            // 检查是否已经存在相同的Cookie，如果不存在则添加
+            if (!originalCookie.includes(tokenValue)) {
+                originalCookie = originalCookie ? originalCookie + '@' + tokenValue : tokenValue;
+                $.setdata(originalCookie, ckName);
+                $.msg($.name, "", "获取Cookie成功🎉");
             } else {
-                originalCookie = tokenValue;
-                cookieCount++;
+                $.msg($.name, "", "Cookie已存在，忽略");
             }
-            $.setdata(originalCookie, ckName);
-            // 统计@的数量来确定获取到第几个Cookie
-            const newCookieCount = (originalCookie.match(/@/g) || []).length;
-            cookieCount += newCookieCount;
-            // 在日志中显示成功获取的Cookie数量
-            $.msg($.name, "", "获取第 " + cookieCount + " 个签到Cookie成功🎉");
         } else {
             $.msg($.name, "", "错误获取签到Cookie失败");
         }
