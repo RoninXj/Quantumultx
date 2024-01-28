@@ -8,9 +8,6 @@
 
 樱花佬频道 @sliverkiss
 
-群组：https://t.me/IPAs_Dd
-频道：https://t.me/IPAs_share
-
 脚本默认 晚上12点 早上6点 中午12点执行 如有需求自行更改
 -----------------------------------------------
 ==============
@@ -18,10 +15,10 @@
 ==============
 本地-手动添加定时任务
 [task_local]
-0 0,6,12 * * * https://raw.githubusercontent.com/anyehttp/quantumult-x/main/task/ziwi+.js, tag=微信小程序ziwi签到, enabled=true
+0 0,6,12 * * * https://raw.githubusercontent.com/RoninXj/Quantumultx/master/ziwi.js, tag=微信小程序ziwi签到, enabled=true
 
 远程-重写获取Cookie
-https://raw.githubusercontent.com/anyehttp/quantumult-x/main/task/ziwi-qx.conf
+https://raw.githubusercontent.com/RoninXj/Quantumultx/master/ziwi.conf
 -----------------------------------------------
 ============== 
 |    Surge   |
