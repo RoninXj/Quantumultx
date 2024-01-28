@@ -4,6 +4,8 @@
 @sliverkiss
 @Date：2024-01-28
 
+该脚本由@Roninxj二次修改，圈x一键抓包可以多账号识别
+
 适用于微信小程序WIZI+ 签到 和 任务
 
 樱花佬频道 @sliverkiss
